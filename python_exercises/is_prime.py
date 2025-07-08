@@ -5,3 +5,6 @@ def is_prime(n):
         if n % i == 0:
             return False
     return True
+
+n = int(input("Enter number "))
+print(is_prime(n))

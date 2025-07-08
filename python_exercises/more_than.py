@@ -1,7 +1,8 @@
-def more_than (s):
-    num = int(input("Enter number"))
+def more_than():
+    num = int(input("Enter number "))
     if num >= 100:
-        print("Too much")
+        return "Too much"
     else:
-        sqr = num * num
-        print(sqr)
+        return num * num
+
+print(more_than())
