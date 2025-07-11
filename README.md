@@ -11,7 +11,7 @@
 
 #### Stage 2
 
-1. **Group elements by N**
+1. **Group elements by N (group_elements.py)**
 
    Group elements of a list into sublists of size N. The last group may contain fewer elements.
 
