@@ -19,10 +19,10 @@
 grouped([1, 2, 3, 4, 5], n=2) ➝ [[1, 2], [3, 4], [5]]
 ```
 
-2. **Find sublist with maximum sum**
+2. **Find sublist with maximum sum (sublist_with_max_sum.py)**
 
    Find a contiguous sublist with the maximum sum (Kadane-like), but return the actual sublist, not just the sum.
-3. **Remove all occurrences of the maximum value**
+3. **Remove all occurrences of the maximum value (remove_max.py)**
 
    Remove all elements equal to the maximum value, keeping the original order.
 
@@ -30,7 +30,7 @@ grouped([1, 2, 3, 4, 5], n=2) ➝ [[1, 2], [3, 4], [5]]
 remove_max([1, 3, 2, 3, 1]) ➝ [1, 2, 1]
 ```
 
-4. **Group dictionaries by key value**
+4. **Group dictionaries by key value (group_by_key.py)**
 
    Group a list of dictionaries by the value of a specific key.
 
@@ -42,7 +42,7 @@ data = [{'a': 1}, {'a': 2}, {'a': 1}]
 5. **Deep merge two dictionaries**
 
    Merge two dictionaries with nested structure recursively, giving priority to values from the second dictionary.
-6. **Invert dictionary with unique values**
+6. **Invert dictionary with unique values (invert_dict.py)**
 
    Invert a dictionary where all values are unique.
 
