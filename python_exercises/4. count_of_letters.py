@@ -1,6 +1,7 @@
-def count_of(s):
-    letter = input("Enter letter")
-    print(s.count(letter))
+def count_of(letter, text):
+    return text.count(letter)
 
+letter = input("Enter letter ")
 s = input("Enter the string ")
-count_of(s)
+
+print(count_of(letter, s))
