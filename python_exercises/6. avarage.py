@@ -6,7 +6,7 @@ n = int(input("How many elements? "))
 numbers = []
 
 for i in range(n):
-    num = int(input(f"Enter element {i + 1} "))
+    num = float(input(f"Enter element {i + 1} "))
     numbers.append(num)
 
 print_average(numbers)
