@@ -9,7 +9,6 @@ def deep_merge(dict1, dict2):
 
     return result
 
-
 a = {
     "user": {
         "name": "A",
