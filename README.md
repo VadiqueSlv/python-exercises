@@ -1,57 +1,128 @@
-## Tasks
 
-1. Check if a number is evenWrite a program that determines whether a number is even or not
-2. Check number and calculate squareThe user inputs a numberIf the number is greater than 100 print `"Too much"`Otherwise, print the square of the number
-3. Sum numbers from 1 to NThe user inputs a number NCalculate the sum of all numbers from 1 to N inclusive
-4. Count the letter "a" in a stringThe user inputs a string (e.g., `"banana"`)The program counts how many times the letter `"a"` appears in the string
-5. Check if a number is primeWrite a function that checks if a given number is prime
-6. Calculate the average of a list of numbersWrite a function that takes a list of numbers and returns their average value
-7. Work with a list
-   Create a list of 5 numbers, add one more number to it, and sort the list in ascending order
+### Stage 1 – Basic Python Tasks
 
-#### Stage 2
+1. **Check if a number is even**
 
-1. **Group elements by N (group_elements.py)**
+   Determine whether a number is even.
 
-   Group elements of a list into sublists of size N. The last group may contain fewer elements.
+   **Filename:** `even_odd.py`
+2. **Check number and calculate square**
 
-```python
-grouped([1, 2, 3, 4, 5], n=2) ➝ [[1, 2], [3, 4], [5]]
-```
+   If the number is greater than 100, print "Too much"; otherwise, print its square.
 
-2. **Find sublist with maximum sum (sublist_with_max_sum.py)**
+   **Filename:** `more_than.py`
+3. **Sum numbers from 1 to N**
 
-   Find a contiguous sublist with the maximum sum (Kadane-like), but return the actual sublist, not just the sum.
-3. **Remove all occurrences of the maximum value (remove_max.py)**
+   Input a number N and calculate the sum from 1 to N inclusive.
 
-   Remove all elements equal to the maximum value, keeping the original order.
+   **Filename:** `sum_to_n.py`
+4. **Count the letter "a" in a string**
 
-```python
-remove_max([1, 3, 2, 3, 1]) ➝ [1, 2, 1]
-```
+   Input a string and count how many times the letter "a" appears.
 
-4. **Group dictionaries by key value (group_by_key.py)**
+   **Filename:** `count_of_letters.py`
+5. **Check if a number is prime**
+
+   Write a function to check if a number is prime.
+
+   **Filename:** `is_prime.py`
+6. **Calculate average of a list**
+
+   Write a function that takes a list of numbers and returns their average.
+
+   **Filename:** `average.py`
+7. **Work with a list**
+
+   Create a list of 5 numbers, add one more number, and sort the list.
+
+   **Filename:** `numbers_list.py`
+
+---
+
+### Stage 2 – Intermediate Logic & Data Structures
+
+1. **Group elements by N**
+
+   Group elements of a list into sublists of size N.
+
+   **Filename:** `group_elements.py`
+2. **Find sublist with maximum sum**
+
+   Return the contiguous sublist with the maximum sum.
+
+   **Filename:** `sublist_with_max_sum.py`
+3. **Remove all occurrences of the maximum value**
+
+   Remove all elements equal to the maximum value, preserving order.
+
+   **Filename:** `remove_max.py`
+4. **Group dictionaries by key value**
 
    Group a list of dictionaries by the value of a specific key.
 
-```python
-data = [{'a': 1}, {'a': 2}, {'a': 1}]
-# ➝ {1: [{'a': 1}, {'a': 1}], 2: [{'a': 2}]}
-```
-
+   **Filename:** `group_by_key.py`
 5. **Deep merge two dictionaries**
 
-   Merge two dictionaries with nested structure recursively, giving priority to values from the second dictionary.
-6. **Invert dictionary with unique values (invert_dict.py)**
+   Recursively merge two nested dictionaries, giving priority to the second one.
+
+   **Filename:** `deep_merge.py`
+6. **Invert dictionary with unique values**
 
    Invert a dictionary where all values are unique.
 
-```python
-{'a': 1, 'b': 2} ➝ {1: 'a', 2: 'b'}
-```
-
+   **Filename:** `invert_dict.py`
 7. **Check near-palindrome**
 
    Check if a string can become a palindrome by removing at most one character.
 
-   Example: `"abca"` ➝ yes, by removing `'b'` or `'c'`.
+   **Filename:** `near_palindrome.py`
+
+---
+
+### Stage 3 – Advanced Algorithms and Challenges
+
+1. **Find anagram groups**
+
+   Group words made of the same letters into sublists.
+
+   **Filename:** `find_anagram_groups.py`
+2. **String compression (Run-length encoding)**
+
+   Compress a string using RLE and decompress it back.
+
+   **Filename:** `run_length_encoding.py`
+3. **Check symmetric matrix**
+
+   Check if a square matrix is symmetric by its main diagonal.
+
+   **Filename:** `check_symmetric_matrix.py`
+4. **Top frequent words in a file**
+
+   Read a text file and output the 10 most frequent words.
+
+   **Filename:** `top_frequent_words.py`
+5. **Recursive directory tree**
+
+   Print folder and file structure recursively (like `tree` command).
+
+   **Filename:** `recursive_tree.py`
+6. **LRU Cache**
+
+   Implement an LRU (Least Recently Used) cache with `get` and `put` methods.
+
+   **Filename:** `lru_cache.py`
+7. **Roman numeral converter**
+
+   Convert between Roman and Arabic numerals.
+
+   **Filename:** `roman_converter.py`
+8. **Spiral matrix (snake fill)**
+
+   Fill an NxN matrix spirally from 1 to N².
+
+   **Filename:** `spiral_matrix.py`
+9. **Generate valid parentheses**
+
+   Generate all valid bracket sequences of length 2n.
+
+   **Filename:** `generate_parentheses.py`
